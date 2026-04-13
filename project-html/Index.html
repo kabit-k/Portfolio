@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabit Khadka | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="bg-layer">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="texture"></div>
+    </div>
+
+    <nav class="glass">
+        <div class="logo">KABIT<span>.</span></div>
+        <div class="nav-meta">
+            <div id="theme-pill" class="pill">Checking...</div>
+            <ul class="links">
+                <li><a href="#hero">Intro</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="hero-flex">
+                <div class="img-frame glass">
+                    <img src="./Image/Pyp.png" alt="Kabit Khadka">
+                </div>
+                <div class="text-frame">
+                    <span class="top-tag">Front-End Developer</span>
+                    <h1>Kabit <br>Khadka</h1>
+                    <p>Web Designer & Student building seamless digital experiences with precision and passion.</p>
+                    <div class="btns">
+                        <a href="#resume" class="btn primary">Resume</a>
+                        <a href="#contact" class="btn outline">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clocks">
+            <div class="clock-row">
+                <div class="c-card glass">
+                    <p>KATHMANDU (NPT)</p>
+                    <div id="npt-clock" class="mono">--:--:--</div>
+                </div>
+                <div class="c-card glass">
+                    <p>YOUR LOCAL TIME</p>
+                    <div id="usr-clock" class="mono">--:--:--</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2 class="ghost-text">RE-SUME</h2>
+            <div class="res-box glass">
+                <img src="resume-placeholder.jpg" alt="Full Resume Display">
+                <div class="res-act">
+                    <a href="resume-placeholder.jpg" download class="btn primary">Download Copy</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-card glass">
+                <h2>Start a Conversation</h2>
+                <form action="https://formspree.io/f/your-id" method="POST">
+                    <div class="row">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <textarea name="message" placeholder="Message..." rows="4" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass">
+        <p>© 2026 Kabit Khadka | Built for Excellence</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
